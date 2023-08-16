@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "920deede-6748-4c04-b556-c0406013aa4f",
+		"name": "turion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9314884"
+	},
+	"item": [
+		{
+			"name": "client",
+			"item": [
+				{
+					"name": "addClient",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"client name\",\r\n    \"satelliteId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/msc/client",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"client"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllClients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/msc/client",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"client"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "satellite",
+			"item": [
+				{
+					"name": "addSatellite",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"sat name\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/msc/satellite",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"satellite"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllSatellites",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/msc/satellite",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"satellite"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getSatelliteById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/msc/satellite/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"satellite",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "request",
+			"item": [
+				{
+					"name": "addRequest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"clientId\" : 1,\r\n    \"satelliteId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/msc/request",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"request"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getRequestById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/msc/request/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"request",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllRequests",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/msc/request",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"request"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "image",
+			"item": [
+				{
+					"name": "getAllImagesByRequestId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/msc/image/7",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"msc",
+								"image",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
