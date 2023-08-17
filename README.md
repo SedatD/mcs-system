@@ -23,8 +23,8 @@ This application contains:
 - Docker: Make sure you have Docker installed on your system. You can download it from the [Docker website](https://www.docker.com/get-started).
 - Clone the repository:
  ```bash
- git clone <https://github.com/SedatD/mcs-system>
- cd <./mcs-system>
+ git clone https://github.com/SedatD/mcs-system.git
+ cd ./mcs-system
 ```
 
 ### Running Docker Container
