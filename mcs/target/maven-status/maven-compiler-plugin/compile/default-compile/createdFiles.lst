@@ -1,0 +1,11 @@
+com\turion\resources\repo\ClientRepo.class
+com\turion\resources\repo\ImageRepo.class
+com\turion\resources\repo\RequestRepo.class
+com\turion\resources\entity\Image.class
+com\turion\resources\repo\SatelliteRepo.class
+com\turion\resources\entity\Client.class
+com\turion\service\TalkingToSatellite.class
+com\turion\resources\entity\Satellite.class
+com\turion\resources\entity\Request.class
+com\turion\McsApplication.class
+com\turion\dto\SatDTO.class

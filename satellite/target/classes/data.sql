@@ -1,0 +1,1 @@
+CREATE TABLE sat (id int auto_increment, requestId int, data bytea);

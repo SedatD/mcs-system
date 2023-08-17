@@ -1,0 +1,8 @@
+com\turion\resources\entity\SatData.class
+com\turion\resources\repo\SatRepo.class
+com\turion\config\SecurityConfig.class
+com\turion\SatApplication.class
+com\turion\dto\SatDTO.class
+com\turion\controller\SatController.class
+com\turion\service\SatService.class
+com\turion\config\DataSourceConfig.class
